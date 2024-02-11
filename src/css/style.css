@@ -25,21 +25,9 @@
     z-index: 99;
 }
 
-
-/*** Spinner ***/
-#spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
+.fa-bars{
+    color: goldenrod;
 }
-
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
-
 
 /*** Button ***/
 .btn {
@@ -149,9 +137,24 @@
     }
 }
 
+#typing-text {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(500) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
 
 /*** Hero Header ***/
-.hero-header {
+.hero-header, .hero {
     background: linear-gradient(rgba(15, 23, 43, .8), rgba(15, 23, 43, .8)), url("../images/bg_home.jpg");
     background-position: center center;
     background-repeat: no-repeat;

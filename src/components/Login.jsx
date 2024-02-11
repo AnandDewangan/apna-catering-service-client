@@ -32,7 +32,7 @@ export default function Login() {
         } 
     }
   return (
-    <div className="container">
+    <div className="container mt-5">
         <h2 className='text text-secondary my-3'>Login Page</h2>
         <div>
         <input type="text" className="form-control" placeholder="Your Email" onChange={(e)=>setEmail(e.target.value)} value={email}/>
