@@ -18,7 +18,7 @@ export default function Team() {
                     <small>Founder</small>
                     <div className="d-flex justify-content-center mt-3">
                         <a className="btn btn-square btn-primary mx-1" href="tel: +919926134072"><i className="fab fa-facebook-f"></i></a>
-                        <a className="btn btn-square btn-primary mx-1" href="tel: +919926134072"><i className="fa fa-whatsapp"></i></a>
+                        <a className="btn btn-square btn-primary mx-1" href="tel: +919926134072"><i className="fab fa-twitter"></i></a>
                         <a className="btn btn-square btn-primary mx-1" href="tel: +919926134072"><i className="fab fa-instagram"></i></a>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ export default function Team() {
                     <small>Co-Founder</small>
                     <div className="d-flex justify-content-center mt-3">
                         <a className="btn btn-square btn-primary mx-1" href="tel: +918963906336"><i className="fab fa-facebook-f"></i></a>
-                        <a className="btn btn-square btn-primary mx-1" href="tel: +918963906336"><i className="fa fa-whatsapp"></i></a>
+                        <a className="btn btn-square btn-primary mx-1" href="tel: +918963906336"><i className="fab fa-twitter"></i></a>
                         <a className="btn btn-square btn-primary mx-1" href="tel: +918963906336"><i className="fab fa-instagram"></i></a>
                     </div>
                 </div>
