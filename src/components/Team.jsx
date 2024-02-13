@@ -26,7 +26,7 @@ export default function Team() {
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div className="team-item text-center rounded overflow-hidden">
                     <div className="rounded-circle overflow-hidden m-4">
-                        <img className="img-fluid" src={require("../images/team-2.jpg")} alt="" />
+                        <img className="img-fluid" src={require("../images/papa.png")} alt="" />
                     </div>
                     <h5 className="mb-0">Full Name</h5>
                     <small>Designation</small>
