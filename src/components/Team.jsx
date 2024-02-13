@@ -12,28 +12,28 @@ export default function Team() {
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div className="team-item text-center rounded overflow-hidden">
                     <div className="rounded-circle overflow-hidden m-4">
-                        <img className="img-fluid" src={require("../images/team-1.jpg")} alt="" />
+                        <img className="img-fluid" src={require("../images/papa.png")} alt="Ganesh Ram Dewangan" />
                     </div>
-                    <h5 className="mb-0">Full Name</h5>
-                    <small>Designation</small>
+                    <h5 className="mb-0">Ganesh Ram Dewangan</h5>
+                    <small>Founder</small>
                     <div className="d-flex justify-content-center mt-3">
-                        <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                        <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
-                        <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
+                        <a className="btn btn-square btn-primary mx-1" href="tel: +919926134072"><i className="fab fa-facebook-f"></i></a>
+                        <a className="btn btn-square btn-primary mx-1" href="tel: +919926134072"><i className="fa fa-whatsapp"></i></a>
+                        <a className="btn btn-square btn-primary mx-1" href="tel: +919926134072"><i className="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div className="team-item text-center rounded overflow-hidden">
                     <div className="rounded-circle overflow-hidden m-4">
-                        <img className="img-fluid" src={require("../images/papa.png")} alt="" />
+                        <img className="img-fluid" src={require("../images/Anand.png")} alt="Anand Dewangan" />
                     </div>
-                    <h5 className="mb-0">Full Name</h5>
-                    <small>Designation</small>
+                    <h5 className="mb-0">Anand Dewangan</h5>
+                    <small>Co-Founder</small>
                     <div className="d-flex justify-content-center mt-3">
-                        <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                        <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
-                        <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
+                        <a className="btn btn-square btn-primary mx-1" href="tel: +918963906336"><i className="fab fa-facebook-f"></i></a>
+                        <a className="btn btn-square btn-primary mx-1" href="tel: +918963906336"><i className="fa fa-whatsapp"></i></a>
+                        <a className="btn btn-square btn-primary mx-1" href="tel: +918963906336"><i className="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
