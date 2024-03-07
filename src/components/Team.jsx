@@ -8,7 +8,7 @@ export default function Team() {
             <h5 className="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>
             <h1 className="mb-5">Our Master Chefs</h1>
         </div>
-        <div className="row g-4">
+        <div className="row g-4 d-flex align-items-center">
             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div className="team-item text-center rounded overflow-hidden">
                     <div className="rounded-circle overflow-hidden m-4">
