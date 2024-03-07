@@ -21,20 +21,33 @@ export default function Admin() {
   }
 
   return (
-    <div className="container">
+    <div className="container mt-5">
       <h2 className="text text-secondary my-3">Client Details</h2>
-      <div className="">
+      <div class="table-responsive">
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>S.No</th>
+          <th>Name</th>
+          <th>Contact</th>
+          <th>Subscription</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody>
         {client.map((item, i)=>{
             return(
-                <div className="row">
-                    <p className="col-1">{i+1}</p>
-                    <p className="col">{item.name}</p>
-                    <p className="col">{item.contact}</p>
-                    <p className="col">{item.sub}</p>
-                    <p className="col">{item.address}</p>
-                </div>
+              <tr>
+                <td>{i+1}</td>
+                <td>{item.name}</td>
+                <td>{item.contact}</td>
+                <td>{item.sub}</td>
+                <td>{item.address}</td>
+              </tr>
             )
         })}
+        </tbody>
+        </table>
       </div><br />
       <button class="btn btn-warning" onClick={logout}>Log-Out</button>
     </div>
