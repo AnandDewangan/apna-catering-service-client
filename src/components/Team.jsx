@@ -37,7 +37,7 @@ export default function Team() {
                     </div>
                 </div>
             </div>
-            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+{/*             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div className="team-item text-center rounded overflow-hidden">
                     <div className="rounded-circle overflow-hidden m-4">
                         <img className="img-fluid" src={require("../images/team-3.jpg")} alt="" />
@@ -64,7 +64,7 @@ export default function Team() {
                         <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
                     </div>
                 </div>
-            </div>
+            </div> */}
       
         </div>
     </div>
