@@ -31,8 +31,8 @@ export default function Home() {
                     className="btn btn-outline-warning text-success w-50"
                   >
                     📞 Call Now
-                  </a>
-                  <h3>Tiffin Service Availble in Bilaspur CG</h3>
+                  </a><br />
+                  <h3 class="text-light">Tiffin Service Availble in Bilaspur CG</h3>
                 </div>
                 <div className="col-lg-6 text-center text-lg-end overflow-hidden">
                   <img src={Hero} className="img-fluid" alt="" />
