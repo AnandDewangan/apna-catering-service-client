@@ -19,7 +19,8 @@ export default function Home() {
                   <h1 className="display-3 text-white animated slideInLeft" id="typing-text">
                     Enjoy Our
                     <br />
-                    Delicious Meal
+                    Delicious Meal<br />
+                    Tiffin Service Available in Bilaspur CG
                   </h1>
                   <p className="text-white animated slideInLeft mb-4 pb-2">
                     Cooking is an art, and the ingredients are the colors that
