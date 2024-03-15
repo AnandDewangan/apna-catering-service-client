@@ -32,7 +32,7 @@ export default function Home() {
                   >
                     📞 Call Now
                   </a><br />
-                  <h3 class="text-light">Tiffin Service Availble in Bilaspur CG</h3>
+                  <h3 class="text-light">***Tiffin Service Availble in Bilaspur CG</h3>
                 </div>
                 <div className="col-lg-6 text-center text-lg-end overflow-hidden">
                   <img src={Hero} className="img-fluid" alt="" />
