@@ -19,8 +19,7 @@ export default function Home() {
                   <h1 className="display-3 text-white animated slideInLeft" id="typing-text">
                     Enjoy Our
                     <br />
-                    Delicious Meal<br />
-                    Tiffin Service Available in Bilaspur CG
+                    Delicious Meal
                   </h1>
                   <p className="text-white animated slideInLeft mb-4 pb-2">
                     Cooking is an art, and the ingredients are the colors that
@@ -33,6 +32,7 @@ export default function Home() {
                   >
                     📞 Call Now
                   </a>
+                  <h3>Tiffin Service Availble in Bilaspur CG</h3>
                 </div>
                 <div className="col-lg-6 text-center text-lg-end overflow-hidden">
                   <img src={Hero} className="img-fluid" alt="" />
