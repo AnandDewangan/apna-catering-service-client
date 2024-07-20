@@ -74,7 +74,7 @@ export default function Service() {
                 <i className="fa fa-3x fa-cart-plus text-primary mb-4"></i>
                 <h5>Online Booking</h5>
                 <p>
-                Embark on a seamless culinary journey with Ganesh Caterer through our convenient online booking platform. From exquisite menus to personalized service, reserve your memorable experience effortlessly, right at your fingertips.
+                Embark on a seamless culinary journey with Anand Caterer through our convenient online booking platform. From exquisite menus to personalized service, reserve your memorable experience effortlessly, right at your fingertips.
                 </p>
               </div>
             </div>

@@ -43,7 +43,7 @@ export default function Contact() {
                             </div>
                             <div class="contact-text">
                                 <h5>Address</h5>
-                                <p>Baloda, Janjgir-Champa</p>
+                                <p>Chingrajpara, Bahartarai Chowk, Bilaspur</p>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,8 @@ export default function Contact() {
                 </div>
             </div>
             <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                <iframe class="position-relative rounded w-100 h-100" src="https://maps.google.com/maps?q=ganesh%20caterers%20baloda%20495559&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" style={{minHeight:"350px", border:"0"}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe class="position-relative rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3696.9257009322396!2d82.1681160756425!3d22.09065427983785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a280b77153ee2bf%3A0xce5afe2a97af3202!2sAnand%20Tiffin%20Center%20%26%20Catering%20Services!5e0!3m2!1sen!2sin!4v1721477591256!5m2!1sen!2sin" frameborder="0" style={{minHeight:"350px", border:"0"}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3696.9257009322396!2d82.1681160756425!3d22.09065427983785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a280b77153ee2bf%3A0xce5afe2a97af3202!2sAnand%20Tiffin%20Center%20%26%20Catering%20Services!5e0!3m2!1sen!2sin!4v1721477591256!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
             </div>
             <div class="col-md-6">
                 <div class="wow fadeInUp" data-wow-delay="0.2s">

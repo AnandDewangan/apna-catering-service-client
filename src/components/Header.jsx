@@ -5,8 +5,8 @@ export default function Header() {
     <nav className="navbar navbar-expand-lg px-4 px-lg-5 py-3 py-lg-0 fixed-top">
       <a href="/" className="navbar-brand p-0">
         <h1 className="text-primary m-0">
-          <i className="fa fa-utensils me-3"></i>Ganesh{" "}
-          <span className="text-success">Caterers</span>
+          <i className="fa fa-utensils me-3"></i>Anand{" "}
+          <span className="text-success">Tiffin & Catering</span>
         </h1>
       </a>
       <button
@@ -28,23 +28,23 @@ export default function Header() {
           <a href="#services" className="nav-item nav-link">
             Service
           </a>
-          <a href="#menu" className="nav-item nav-link">
-            Menu
-          </a>
           <div className="nav-item dropdown">
             <a
               href="/"
               className="nav-link dropdown-toggle"
               data-bs-toggle="dropdown"
             >
-              Pages
+              Menu
             </a>
             <div className="dropdown-menu m-0">
-              <a href="#team" className="dropdown-item">
-                Our Team
+              <a href="#menu" className="dropdown-item">
+                Food Menu
               </a>
-              <a href="#testimonial" className="dropdown-item">
-                Testimonial
+              <a href="#gallary" className="dropdown-item">
+                Gallary
+              </a>
+              <a href="#team" className="dropdown-item">
+                Team
               </a>
               <a href="/login" className="dropdown-item">
                 Login

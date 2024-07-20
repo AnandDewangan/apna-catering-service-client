@@ -23,9 +23,9 @@ export default function About() {
             </div>
             <div className="col-lg-6 text-light">
                 <h5 className="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
-                <h1 className="mb-4 text-light">Welcome to <i className="fa fa-utensils text-primary me-2"></i> Ganesh Caterers</h1>
-                <h4 className="mb-4 text-primary" id="typing-text"><b>Ganesh Caterer: Crafting Culinary Magic Since 2003</b></h4>
-                <p className="mb-4">With a legacy spanning back to 2003, Ganesh Caterer has been a trusted name in the realm of culinary expertise. We take pride in orchestrating unforgettable weddings for over 1000 couples, setting the stage for joyous unions. Additionally, our expertise extends to over 500 customer parties and 250+ other celebrations, where we have consistently delivered excellence in catering services. At Ganesh Caterer, we blend experience with innovation to turn your special moments into extraordinary memories.</p>
+                <h1 className="mb-4 text-light">Welcome to <i className="fa fa-utensils text-primary me-2"></i> Anand Caterers</h1>
+                <h4 className="mb-4 text-primary" id="typing-text"><b>Anand Caterer: Crafting Culinary Magic Since 2003</b></h4>
+                <p className="mb-4">With a legacy spanning back to 2003, Anand Caterer has been a trusted name in the realm of culinary expertise. We take pride in orchestrating unforgettable weddings for over 1000 couples, setting the stage for joyous unions. Additionally, our expertise extends to over 500 customer parties and 250+ other celebrations, where we have consistently delivered excellence in catering services. At Anand Caterer, we blend experience with innovation to turn your special moments into extraordinary memories.</p>
                 <div className="row g-4 mb-4 mt-5">
                     <div className="col-sm-6">
                         <div className="d-flex align-items-center border-start border-5 border-primary px-3">

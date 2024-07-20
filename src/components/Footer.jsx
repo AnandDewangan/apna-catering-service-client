@@ -9,13 +9,13 @@ export default function Footer() {
                         <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
                         <a className="btn btn-link" href="/about">About Us</a>
                         <a className="btn btn-link" href="tel: +918963906336">Contact Us</a>
-                        <a className="btn btn-link" href="/booking">Reservation</a>
+                        {/* <a className="btn btn-link" href="/booking">Reservation</a> */}
                         <a className="btn btn-link" href="/">Privacy Policy</a>
                         <a className="btn btn-link" href="/">Terms & Condition</a>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                        <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Budhwari Bajar, Baloda, Dist- Janjgir-Champa (C.G.)</p>
+                        <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Chingrajpara, Bahartarai Chowk, Bilaspur (C.G.)</p>
                         <p className="mb-2"><i className="fa fa-phone-alt me-3"></i><a href="tel:+9189639 06336">8963906336</a></p>
                         <p className="mb-2"><i className="fa fa-envelope me-3"></i><a href="mailto:apnacateringservices@gmail.com">apnacateringservices@gmail.com</a></p>
                         <div className="d-flex pt-2">
@@ -28,7 +28,8 @@ export default function Footer() {
                     <div className="col-lg-3 col-md-6">
                         <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
                         <h5 className="text-light fw-normal">Monday - Sunday</h5>
-                        <p>09AM - 09PM</p>
+                        <p>Lunch ---- 09AM - 12PM</p>
+                        <p>Dinner ---- 06AM - 08PM</p>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <h4 className="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
@@ -51,10 +52,10 @@ export default function Footer() {
                         </div>
                         <div className="col-md-6 text-center text-md-end">
                             <div className="footer-menu">
-                                <a href="index.php">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
+                                <a href="/">Home</a>
+                                <a href="tel:+918963906336">Contact</a>
+                                <a href="tel:+918963906336">Help</a>
+                                <a href="tel:+918963906336">FQAs</a>
                             </div>
                         </div>
                     </div>

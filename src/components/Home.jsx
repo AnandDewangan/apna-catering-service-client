@@ -1,11 +1,12 @@
 import React from "react";
-import Hero from "../images/hero.png";
+import Hero from "../images/hero1.png";
 import Service from "./Service";
 import About from "./About";
 import Menu from "./Menu";
 import Team from "./Team";
-import Testimonial from "./Testimonial";
+// import Testimonial from "./Testimonial";
 import Contact from "./Contact";
+import Gallary from "./Gallary";
 
 export default function Home() {
   return (
@@ -31,8 +32,8 @@ export default function Home() {
                     className="btn btn-outline-warning text-success w-50"
                   >
                     📞 Call Now
-                  </a><br />
-                  <h3 class="text-light">***Tiffin Service Availble in Bilaspur CG</h3>
+                  </a><br /><br/>
+                  <h3 class="text-light">***Tiffin Service Availble in Gandhi Chowk, Dayalband, Ashok Nagar Sarkanda Bilaspur</h3>
                 </div>
                 <div className="col-lg-6 text-center text-lg-end overflow-hidden">
                   <img src={Hero} className="img-fluid" alt="" />
@@ -46,7 +47,8 @@ export default function Home() {
       <Service />
       <Menu />
       <Team />
-      <Testimonial />
+      <Gallary />
+      {/* <Testimonial /> */}
       <Contact />
     </>
   );

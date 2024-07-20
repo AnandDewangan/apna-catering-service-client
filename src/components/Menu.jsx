@@ -67,42 +67,6 @@ export default function Menu() {
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/breakfast/coffee.jpg")} alt="" style={{width: "80px"}} />
-                                <div className="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Coffee</span>
-                                        {/* <span className="text-primary">$115</span> */}
-                                    </h5>
-                                    <small className="fst-italic">Awaken your senses with our rich, aromatic coffee, crafted to perfection and served with a side of warmth and bliss.</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/breakfast/dosa.jpg")} alt="" style={{width: "80px"}} />
-                                <div className="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Dosa</span>
-                                        {/* <span className="text-primary">$115</span> */}
-                                    </h5>
-                                    <small className="fst-italic">Embark on a culinary journey with our Dosa, a crispy canvas embracing a medley of flavors, offering a symphony of taste in every bite.</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/breakfast/egg.jpg")} alt="" style={{width: "80px"}} />
-                                <div className="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Boiled Egg</span>
-                                        {/* <span className="text-primary">$115</span> */}
-                                    </h5>
-                                    <small className="fst-italic">Delight in simplicity with our boiled egg – a protein-packed perfection that turns simplicity into a wholesome culinary experience.</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="d-flex align-items-center">
                                 <img className="flex-shrink-0 img-fluid rounded" src={require("../images/breakfast/idli.jpg")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
@@ -113,32 +77,6 @@ export default function Menu() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-7.jpg")} alt="" style={{width: "80px"}} />
-                                <div className="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Pizza</span>
-                                        {/* <span className="text-primary">$115</span> */}
-                                    </h5>
-                                    <small className="fst-italic">Indulge in a slice of perfection with our artisanal pizza, where a symphony of fresh ingredients meets a crispy, flavorful crust for an unforgettable taste experience.</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/breakfast/omlet.jpg")} alt="" style={{width: "80px"}} />
-                                <div className="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Omlet</span>
-                                        {/* <span className="text-primary">$115</span> */}
-                                    </h5>
-                                    <small className="fst-italic">Experience breakfast bliss with our fluffy omelet, a savory delight crafted with farm-fresh eggs and a medley of delectable fillings, waking up your taste buds in every bite.</small>
-                                </div>
-                            </div>
-                        </div>
-
-
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
                                 <img className="flex-shrink-0 img-fluid rounded" src={require("../images/breakfast/pakoda.jpg")} alt="" style={{width: "80px"}} />
@@ -175,115 +113,103 @@ export default function Menu() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/breakfast/uppma.jpg")} alt="" style={{width: "80px"}} />
-                                <div className="w-100 d-flex flex-column text-start ps-4">
-                                    <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Uppama</span>
-                                        {/* <span className="text-primary">$115</span> */}
-                                    </h5>
-                                    <small className="fst-italic">Savor the South Indian charm of Uppama, a wholesome semolina delight adorned with vibrant vegetables, embodying a symphony of flavors and textures in every spoonful.</small>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div id="tab-2" className="tab-pane fade show p-0">
                     <div className="row g-4">
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-1.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/rice.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Rice</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">In the humblest bowl of rice lies the strength of a thousand harvests, a testament to patience and perseverance.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-2.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/dal.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Dal Fry</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">In every spoonful of dal fry, find the harmony of tradition and taste, a melody of flavors that nourish the soul.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-3.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/dry sabji.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Dry Veg Sabji</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">In each bite of Dry Veg Sabji, discover the harmony of fresh produce and aromatic spices, a feast for the senses.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-4.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/Aloo-Matar.webp")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Gravy Veg Sabji</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">In every spoonful of Gravy Veg Sabji, taste the perfect blend of spices and garden-fresh goodness, a true culinary treasure.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-5.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/roti.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Roti</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">Roti, a humble circle of warmth and tradition, wraps the essence of home in every bite.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-6.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/aachar.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Aachar</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">Aachar, a tangy burst of tradition, preserves the vibrant essence of every meal.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-7.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/salad.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Salad</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">Freshness in every bite, a symphony of flavors in a bowl.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-8.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/papad.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Papad</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">Crisp and crunchy delights, adding spice to every bite.</small>
                                 </div>
                             </div>
                         </div>
@@ -291,99 +217,99 @@ export default function Menu() {
                 </div>
                 <div id="tab-3" className="tab-pane fade show p-0">
                     <div className="row g-4">
-                        <div className="col-lg-6">
+                    <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-1.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/rice.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Rice</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">In the humblest bowl of rice lies the strength of a thousand harvests, a testament to patience and perseverance.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-2.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/dal.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Dal Fry</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">In every spoonful of dal fry, find the harmony of tradition and taste, a melody of flavors that nourish the soul.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-3.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/chole.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Dry Veg Sabji</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">In each bite of Dry Veg Sabji, discover the harmony of fresh produce and aromatic spices, a feast for the senses.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-4.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/paneer-sabji.webp")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Gravy Veg Sabji</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">In every spoonful of Gravy Veg Sabji, taste the perfect blend of spices and garden-fresh goodness, a true culinary treasure.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-5.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/roti.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Roti</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">Roti, a humble circle of warmth and tradition, wraps the essence of home in every bite.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-6.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/aachar.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Aachar</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">Aachar, a tangy burst of tradition, preserves the vibrant essence of every meal.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-7.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/salad.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Salad</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">Freshness in every bite, a symphony of flavors in a bowl.</small>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="d-flex align-items-center">
-                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/menu-8.jpg")} alt="" style={{width: "80px"}} />
+                                <img className="flex-shrink-0 img-fluid rounded" src={require("../images/lunch/papad.png")} alt="" style={{width: "80px"}} />
                                 <div className="w-100 d-flex flex-column text-start ps-4">
                                     <h5 className="d-flex justify-content-between border-bottom pb-2">
-                                        <span>Chicken Burger</span>
-                                        <span className="text-primary">$115</span>
+                                        <span>Papad</span>
+                                        {/* <span className="text-primary">$115</span> */}
                                     </h5>
-                                    <small className="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
+                                    <small className="fst-italic">Crisp and crunchy delights, adding spice to every bite.</small>
                                 </div>
                             </div>
                         </div>
